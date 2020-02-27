@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
   @CucumberOptions(
 		  
 		  features ="C:\\Users\\alef1\\eclipse-workspace\\BDD_Cucumber\\src\\"
-		  		+ "main\\java\\Feature\\dataDriven.feature",
+		  		+ "main\\java\\Feature\\createContacts.feature",
 		  glue = {"StepDefinations"},
 		  plugin= {"pretty", "html:test-output", "json:json_output/Cucumber.json"},
 		  monochrome= true,
